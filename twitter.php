@@ -23,18 +23,19 @@ $connection = new TwitterOAuth(
   $config['twitter_access_token'],
   $config['twitter_access_token_secret']
 );
+$connection->setTimeouts(10, 15);
 //$content = $connection->get("account/verify_credentials");
 //$statues = $connection->post("statuses/update", ["status" => "hello world"]);
 
-$media1 = $connection->upload('media/upload', ['media_data' => 'data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAA'];
-
-
+//$media1 = $connection->upload('media/upload', ['media_data' => 'data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAA']);
+$media1 = $connection->upload_manual('media/upload', ['media_data' => $data]);
+print_r($media1);
 //$media2 = $connection->upload('media/upload', ['media' => 'img/library/2.jpg']);
-$parameters = [
+/*$parameters = [
     'status' => $message,
-    'media_ids' => $media1->media_id_string],
+    'media_ids' => $media1->media_id_string,
 ];
 $result = $connection->post('statuses/update', $parameters);
-
+*/
 
 ?>
