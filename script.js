@@ -23,6 +23,8 @@ $( document ).ready(function() {
         $('.lazy').lazy();
     });
 
+    // LOAD LIBRARY
+    twitter_stream(15, '#co2 #hackathon');
 });
 
 function readFile(file) {
@@ -132,7 +134,7 @@ function shareFile(fileData) {
     var formData = new FormData();
 
     formData.append('imageData', fileData);
-    formData.append('message', 'cool #CO2');
+    formData.append('message', '#co2 #hackathon');
 
     $.ajax({
         type: 'POST',
@@ -143,14 +145,13 @@ function shareFile(fileData) {
         success: function(data) {
             //console.log('shared');
             console.log(data);
+
+            // RELOAD BACK TO LIBRARY
+            twitter_stream(1, '#co2 #hackathon');
         },
         error: function(data) {
             console.log(data);
             //alert('There was an error uploading your file!');
         }
     });
-}
-
-function twitter_stream(){
-    $('#twitter-stream').html();
 }
