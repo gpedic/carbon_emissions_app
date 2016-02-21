@@ -6,10 +6,14 @@ html, body {
     font-family: 'Signika', sans-serif!important;
 }
 body{
-  background-color: #000!important;
+  background-color: #464647!important;
 }
 body.navbar-more-show  {
   overflow: hidden;
+}
+.clear{
+  clear: both;
+
 }
 .animate {
     -webkit-transition: all 0.3s ease-in-out;
@@ -281,12 +285,41 @@ div.image-cover.bg {
   top:0px;
   position: absolute;
 }
-#library{
+#library .text-data{
+  padding: 7%;
+  background: #fff;
+  color: #949494;
+  border-top: 2px solid #4BC7E6;
+}
+#library .text-data .calculation{
 
 }
+
+#library .lib-item{
+  margin: 75px 3%;
+  box-shadow: 1px 3px 0px #4BC7E6;
+}
 img.lazy {
-  width: 100%; 
+  width: 100%!important; 
   height: auto; 
   display: block;
-  padding: 50px 0px;
+  /*padding: 50px 0px 0px;*/
+}
+
+
+.calculation .data-num{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    background: #E8F0F6;
+    float: left;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 1px solid #C4D3DF;
+}
+.data-num span{
+    display: block;
+    color: #8C8C8C;
+    font-size: 0.5em;
 }
