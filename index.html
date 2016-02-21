@@ -11,6 +11,7 @@
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="script.js"></script>
+    <script src="transitions.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -30,6 +31,8 @@
 
 	<div class="close-button" id="close-button" onclick="reset();" style="display:none">&times;</div>
 
+    <div class="close-button" id="library-close-button" onclick="library_to_default();" style="display:none">&times;</div>
+
     <div class="image-cover">
         <canvas id="canvasID"></canvas>
     </div>
@@ -43,8 +46,8 @@
 
             <ul class="nav navbar-nav mobile-bar" style="width: inherit;">
                 <li>
-                    <a href="#">
-                        <span class="menu-icon fa fa-home"></span> Home
+                    <a href="#" onclick="shareFile();">
+                        <span class="menu-icon fa fa-twitter"></span> Share
                     </a>
                 </li>
                 <li>
@@ -62,7 +65,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#navbar-more-show">
+                    <a href="#navbar-more-show" onclick="default_to_library();">
                         <span class="menu-icon fa fa-bookmark-o"></span> Library
                     </a>
                 </li>
