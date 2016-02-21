@@ -11,21 +11,17 @@ $log->pushHandler(new StreamHandler('app.log', Logger::INFO));
 
 //split the data we get from the frontend
 list($type, $data) = explode(';', $_POST['imageData']);
-
-//name our new file
-//$name = md5($data);
-
-//get
 $data =  substr($data, strpos($data, ",") + 1);
+//name our new file
+$name = md5($_POST['imageData']);
 
-/*
-  if ($type === 'data:image/png' || $type === 'data:image/jpeg') {
-    $ext = substr($type, strpos($type, "/") + 1);
-    $path = "./img/$name.$ext";
+if ($type === 'data:image/png' || $type === 'data:image/jpeg') {
+  $ext = substr($type, strpos($type, "/") + 1);
+  $path = "./img/$name.$ext";
 
-    //file_put_contents($path, base64_decode($data));
-  }
-*/
+  file_put_contents($path, base64_decode($data));
+}
+
 // create curl resource
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_HEADER, false);
@@ -48,6 +44,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $resp = curl_exec($ch);
 $resp_json = json_decode($resp, true);
 
+//print_r($resp_json);
 //close curl resource to free up system resources
 curl_close($ch);
 

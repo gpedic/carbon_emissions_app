@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@matikcloud">
+<meta name="twitter:title" content="CO2 Stats">
+<meta name="twitter:image" content="/img/2790901f9fa8b06529b38aeaa6a4a336.jpeg">
 <head>
     <title>#CO2 App Inspector</title>
 
@@ -16,7 +19,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
      <!-- cdnjs -->
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.6.5/jquery.lazy.min.js"></script>
-
     
     <script src="script.js"></script>
     <script src="transitions.js"></script>
@@ -41,9 +43,10 @@
 
             <ul class="nav navbar-nav mobile-bar" style="width: inherit;">
                 <li>
-                    <a href="#" onclick="shareFile();">
+									  <a href="https://twitter.com/share" class="twitter-share-button" data-via="matikcloud" data-hashtags="co2">Tweet</a>
+                    <!-- <a href="#" onclick="shareFile();">
                         <span class="menu-icon fa fa-twitter"></span> Share
-                    </a>
+                    </a> -->
                 </li>
                 <li>
                     <div class="box">
@@ -138,4 +141,20 @@
     </div>
 
 </body>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </html>
