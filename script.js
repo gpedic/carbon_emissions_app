@@ -162,6 +162,8 @@ function readFile(file) {
         // HIDE CLOSE BUTTON
         $('.close-button').hide();
 
+        // SHOW COVER
+        $('.image-cover').show();
     }
 
     function default_to_open(){
@@ -173,6 +175,9 @@ function readFile(file) {
 
         // OPEN UP DATA PANEL
         $('.description').animate({bottom: '+=450px'}, 1500);
+
+        // SHOW COVER
+        $('.image-cover').hide();
     }
 
     function default_to_library(){
@@ -181,8 +186,18 @@ function readFile(file) {
 
         // SHOW LIBRARY
         $('#library').show();
+
+        // HIDE COVER
+        $('.image-cover').hide();
     }
 
     function library_to_default(){
-        //
+        // SHOW NAV BAR
+        $('#main-nav').animate({bottom: '+=500px'}, 1000);
+
+        // HIDE LIBRARY
+        $('#library').hide(); 
+
+        // SHOW COVER
+        $('.image-cover').show();
     }

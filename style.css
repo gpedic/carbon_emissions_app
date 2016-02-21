@@ -1,10 +1,12 @@
 @import url("http://www.cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css");
-@import url("@import url(https://fonts.googleapis.com/css?family=Signika);");
+@import url("https://fonts.googleapis.com/css?family=Signika)");
 
 html, body {
     height: 100%;
-    background: #000!important;
     font-family: 'Signika', sans-serif!important;
+}
+body{
+  background-color: #000!important;
 }
 body.navbar-more-show  {
   overflow: hidden;
@@ -18,6 +20,7 @@ body.navbar-more-show  {
   transition: all 0.3s ease-in-out;
 }
 .navbar {
+  z-index: 9999;
     height: calc(100%);
   max-height: 300px;
   -webkit-transform: translate(0px, calc(-100% + 69px));
@@ -169,6 +172,10 @@ input:active{
   display: flex;
   align-items: center;
   height: 100%;
+  background: url('img/co2-bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #E6E4D4!important;
 }
 .image-cover:after {
   /*content: "\f083";
