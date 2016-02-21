@@ -1,0 +1,209 @@
+label	CO2e (kg)	text (metric)	text (imperial)	url suffix (for deep linking)	x offset	y offset	category	source	link
+Drying washing on line	0	0g	0lbs	drying_washing_line		-8	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+1 litre orange juice	1	850g	1.8lbs	food_orange_juice			food & drink	NY Times	http://www.nytimes.com/2009/01/22/business/22pepsi.html
+Yellowstone mud volcano	173,600,000	173kt	190k t	yellowstone_mud_volcano	-1	25	events	NY Times	http://query.nytimes.com/gst/fullpage.html?res=9A07E1DF1E3EF935A15751C1A961958260
+Yellowstone entire park	44,000,000,000	44m t	48.5m t	yellowstone				NY Times	http://query.nytimes.com/gst/fullpage.html?res=9A07E1DF1E3EF935A15751C1A961958260
+All UK music festivals	84,000,000	84,000t	92,594t	festival_uk_all			events	University Of Oxford Environmental Change Institute	www.eci.ox.ac.uk/research/energy/downloads/first-step.pdf
+a music festival	168,000	168t	185t	festival_uk	-20	22	events	University Of Oxford Environmental Change Institute	www.eci.ox.ac.uk/research/energy/downloads/first-step.pdf
+London 2012 Olympics (projected)	3,400,000,000	3.4m t	3.7m t	london_2012	7	-15	events	London 2012	www.london2012.com/documents/.../carbon-footprint-study.pdf
+									
+									
+small wedding (100 guests)	5,000	5t	5.5t	wedding_small		27	events	JP Morgan	http://www.jpmorganclimatecare.com/
+medium wedding (200 guests)	22	21t	23t	wedding_medium		31	events	JP Morgan	http://www.jpmorganclimatecare.com/
+large wedding (300 guests)	84,500	85t	94t	wedding_society		32	events	JP Morgan	http://www.jpmorganclimatecare.com/
+Eyjafjallajökull per day	150,000,000	150,000t	165,000t	volcanoes_iceland	-1	20		Agent France Presse	http://www.breitbart.com/article.php?id=CNG.8cc536b2db245bb0c34359dccb86d29a.161&show_article=1
+all cars in the UK	18,300,000,000	18.3m t	20.1m t	car_uk	5	1	transport	Carbon Trust Report	http://www.carbontrust.co.uk/Publications/pages/publicationdetail.aspx?id=CTC603
+a 2 mile car journey	1	738g	1.62lbs	car_2mile_journey	6		transport	Green Order	https://www.whatcomsmarttrips.org/pdf/Emission%20Facts%202005.pdf
+average car	5,110	5.1t	5.62t	car_yearly	3		transport	EPA	http://www.epa.gov/RDEE/energy-resources/refs.html
+								our calcs	https://spreadsheets1.google.com/ccc?key=tl9-6xdjkGr-yq5kjMxvbVg&authkey=CPrcub8O&hl=en_GB#gid=2
+1 mile Toyota Prius Plugin (California charged)	0	230g	0.5lbs	car_toyota_prius_plugin	6		transport	Google	http://www.google.org/recharge/dashboard/calculator
+1 mile Toyota Prius 	0	270g	0.6lbs	car_toyota_prius	6		transport	Google	http://www.google.org/recharge/dashboard/calculator
+1 mile average car	1	540g	1.2lbs	car_toyota	3	-2	transport	Google	http://www.google.org/recharge/dashboard/calculator
+one text message	0	0.014g	0.0032oz	text		-10	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+your yearly text messages	0	51g	1.8oz	text_yearly		-10	electronics	How Bad Are Bananas? Calculated	
+all text messages globally 	32,000	32,000t	35,273t	text_global_yearly		-10	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+one web search (laptop)	0	0.2g	0.007oz	web_search	-17	-17	web	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year of web searches (20 per day)	1	1.4kg	3lbs	web_search_yearly	-17	-17	web	How Bad Are Bananas? Calculated	
+									
+sending an email	0	4g	0.0128oz	email		-10	web	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+sending an email (big attachment)	0	50g	1.6oz	email_attachment		-10	web	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year of emails	135	135kg	298lbs	email_yearly		-10	web	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+using a hand dryer	0	20g	0.64oz	drying_hands_dryer	22	-10	grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+using a paper towel	0	10g	0.32oz	drying_hands_paper			grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year of hand drying	15	15kg	33lbs	drying_hands_yearly	6		grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+lightweight plastic bag	0	3g	0.0096oz	bag_lightweight		9	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+standard plastic bag	0	10g	0.32oz	bag_standard		4	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+recycled paper bag	0	12g	0.42oz	bag_paper			household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+ironing a shirt	0	25g	0.96oz	ironing_shirt			household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+ironing a shirt (per year)	8	7.8kg	17 lbs	ironing_yearly			household	How Bad Are Bananas? Calculated	
+gas kettle	0	50g	1.6oz	boiling_water_gas		15	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+electric kettle	0	70g	2.4oz	boiling_water_electric	-6		household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+saucepan of water	0	115g	4oz	boiling_water_saucepan			household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+boiling electric kettles per year (2x day)	51	51kg	113lbs	boiling_water_yearly	-6		household	How Bad Are Bananas? Calculated	
+an apple from your garden	0	0g	0lbs	apples_garden		7	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+an apple, local & seasonal	0	10g	0.32oz	apples_local		7	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+an apple from the supermarket	0	80g	2.72oz	apples_average		7	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+an imported apple	0	150g	5.28oz	apples_inefficient		7	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a kilo of apples	1	0.6kg	1.2lb	apples_average_kilo		7	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a banana	0	80g	2.82oz	food_banana	14	5	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a kilo of bananas	0	0.5kg	16oz	food_banana_kilo	14	5	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+an orange	0	90g	3.2oz	food_orange			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a kilo of oranges	1	500g	1.1lbs	food_orange_kilo			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+an air-freighted orange	1	1kg	2.2lbs	food_orange_freighted			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a kilo of air-freighted oranges	6	5.5kg	12lbs	food_orange_freighted_kilo			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+15 inch LCD TV (1 hr)	0	34g	1.12oz	tv_15inch		15	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+28 inch TV (1 hr)	0	76g	3.2oz	tv_28inch	-1	15	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+32 inch LCD TV (1 hr)	0	88g	3.2oz	tv_32inch		-3	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+42 inch Plasma TV (1 hr)	0	220g	8oz	tv_42inch		-4	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+watching 28" TV per day	0	380g	13oz	tv_42inch		-4	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+watching 28" TV per year	140	140kg	308lbs	tv_yearly		-4	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+large cappucino	0	235g	8oz	food_cappucino	10	5	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+large latte	0	340g	11.2oz	food_latte	1	-7	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a cup of tea	0	71g	3.2oz	food_tea_yearly	-5	1	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year of tea	52	51kg	700lbs	food_tea_yearly	-5	1	food & drink	How Bad Are Bananas? Calculated	
+a year of coffee	210	210kg	460lbs	food_coffee_yearly	10	5	food & drink	How Bad Are Bananas? Calculated	
+average bus ride	0	150g	4.8oz	bus_passenger	1	-1	transport	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+reusable diapers (yearly)	220	220kg	485lbs	nappies_reusable_60c		-2	household	Times	http://www.timesonline.co.uk/tol/news/environment/article4969413.ece 
+disposable diapers (yearly)	228	228kg	502lbs	nappies_disposable		-2	household	Times	http://www.timesonline.co.uk/tol/news/environment/article4969413.ece 
+reusable diapers 'extreme dried'	397	397kg	875lbs	nappies_reusable_90c		-2	household	Times	http://www.timesonline.co.uk/tol/news/environment/article4969413.ece
+disposable diapers per child	550	550kg	1,200lbs	nappies_per_child		-2	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+									
+kilo of imported strawberries	7	7.2kg	16lbs	food_strawberries		10	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+bottled water (locally sourced)	0	110g	3.2oz	bottled_water_local			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+bottled water  	0	160g	6.4oz	bottled_water_average			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+bottled water (imported)	0	215g	8oz	bottled_water_imported		5	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+newspaper	2	1.8kg	64oz	newspaper_weekend	16	5		How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year of newspapers	400	400kg	880lbs	newspaper_yearly	16	5		How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+imported bottled beer	1	900g	32oz	food_beer		10	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+aerated 'eco' shower	0	90g	3.2oz	shower_efficient	-15	-20	grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+electric shower	1	500g	17.6oz	shower_average	-15	-20	grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+electric power shower	2	1.7kg	59.2oz	shower_power	-15	-20	grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year of electric showers	183	182kg	400lbs	shower_yearly	-15	-20	grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+lolly	0	50g	1.6oz	food_lolly			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+									
+									
+									
+									
+									
+1 kg of garden waste	0	200g	6.4oz	kg_waste_garden			household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+1 kilo of household waste	1	700g	24oz	kg_waste	5	-2	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+yearly waste per person	230	230kg	500lbs	kg_waste_person	5	-2	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+hand-washing dishes in hot water	1	540g	19.2oz	washing_sparing			household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+								How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+								How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+toilet roll (recycled)	0	450g	16oz	toilet_roll_recycled		9	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+toilet roll (not recycled)	1	730g	17.6oz	toilet_roll_virgin		9	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year of toilet roll	75	75kg	165lbs	toilet_roll_yearly		9	household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+pint of milk	1	720g	25.6oz	food_milk			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+paperback (recycled)	0	400g	12.8oz	paperback_recycled				How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+paperback	1	1kg	35.2oz	paperback_average				How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+paperback (expensive)	2	2kg	70.4oz	paperback_expensive				How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+loaf of bread	1	1kg	35.2oz	food_bread			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+wine (carton, local)	0	400g	14.4oz	wine_carton	-15	-8	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+bottle of wine   	1	1kg	36.8oz	wine_average		10	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+imported bottle of wine	2	1.5kg	52.8oz	wine_expensive	-1	10	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a year's worth of wine	150	150kg	330lbs	wine_yearly		10	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+bath (solar-heated)	0	0	0lbs	bath_solar		-1	grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+modest bath (efficient boiler)	1	500g	17.6oz	bath_modest			grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+large bath (efficient boiler)	1	1.1kg	38.4oz	bath_generous_gas			grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+larger bath (inefficient boiler)	3	2.6kg	91.2oz	bath_generous_electric			grooming	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+bunch of asparagus (local)	0	125g	4.8oz	food_asparagus_local			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+bunch of asparagus (imported)	4	3.5kg	123.2oz	food_asparagus_freighted		2	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+laundry, 30C, line dried	1	600g	20.8oz	laundry_30c	1		household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+laundry, 40C, line-dried	1	700g	24oz	laundry_40c_line	1		household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+								How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+laundry (yearly)	440	440kg	970lbs	laundry_yearly			household	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+veggieburger	1	1kg	35.2oz	food_veggieburger			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+ burger	3	2.5kg	88oz	food_cheeseburger			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+1 kg of rice -Average	4	4kg	140.8oz	food_rice_average			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+4 oz steak (raw)	2	2kg	70.4oz	food_beefsteak	0	-9	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+6 eggs	2	1.8kg	64oz	food_eggs			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+1 kg of frozen shrimp	10	10.1kg	352oz	food_shrimp	-15	-8	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+1 kg of fresh cod	3	3.2kg	7lbs	food_fresh_cod	-7	1	food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+low energy bulb (yearly)	90	90kg	198lbs	bulbs_low_energy	-11	12	energy	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+incandescent bulb (yearly)	500	500kg	1100lbs	bulbs_100w	13	-15	energy	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+hard cheese (1kg)	12	12kg	416oz	food_hard_cheese			food & drink	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+night in a lo-carbon hotel	3	3kg	105.6oz	hotel_low_carbon	-4	10	energy	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+night in a hotel  	25	25kg	55lbs	hotel_average	-4	10	energy	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+night in a hi-carbon hotel	60	60kg	132lbs	hotel_high_carbon	-4	10	energy	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+1 minute cellphone call	0	57g	2.08oz	mobile_minute	-6	-9	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+year of cellphone calls (2 mins per day)	47	47kg	100lbs	mobile_yearly_2min	-6	-9	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+year of cellphone calls (1 hr per day)	1,250	1,250kg	2750lbs	mobile_yearly_hour	-6	-9	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+global cellphone usage	125,000,000,000	125m	138m	mobile_global	-6	-9	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+to make a laptop	200	200kg	440lbs	computer_laptop	-11	-17	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+to make a desktop computer	720	720kg	1580lbs	computer_imac		-4	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+to make a mega desktop computer	800	800kg	1760lbs	computer_high_end		-4	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+laptop per hour	0	12g	0.42oz	computer_laptop_hour			electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+average desktop per hour	0	63g	2.22oz	computer_desktop_hour			electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+mega desktop per hour	0	150g	5.3oz	computer_high_end_hour			electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+computer for a year	138	138kg	304lbs	computer_yearly		-7	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a small office of computers (yearly)	1,380	1.3t	1.52t	computer_10_desktops		-6	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+making 10 desktop computers 	8,000	8t	8.8t	computer_manufacturing_10		-6	electronics	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+the internet	300,000,000,000	300m t	330m t	internet		6	web	Guardian	http://www.guardian.co.uk/environment/2010/aug/12/carbon-footprint-internet
+all european flights per day	560,000,000	560,000t	617,000t	flights_europe			transport	Times	http://www.timesonline.co.uk/tol/news/environment/article7101517.ece
+aircraft from Heathrow airport per year	1,975,000,000	2.00m t	2.2m t	heathrow			transport	London Heathrow	http://www.heathrowairport.com/assets/Internet/Heathrow/Heathrow%20downloads/Static%20files/LHR_CR_performance.pdf
+phone charger (yearly)	1	600g	1.3lbs	phone_charger_yearly	23	-24	electronics	Guardian	http://www.guardian.co.uk/environment/2007/jan/21/observermagazine.ethicalliving
+phone charger (daily)	0	1.6g	0.05oz	phone_charger_daily	23	-25	electronics	Guardian	http://www.guardian.co.uk/environment/2007/jan/21/observermagazine.ethicalliving
+vaccuum cleaning (yearly)	83	83kg	640oz	vacuum_cleaner	-3	7	household	Guardian	http://www.guardian.co.uk/environment/2007/jan/21/observermagazine.ethicalliving
+average Malawian	100	01t	0.1t	person_malawi	-3	-7	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+average person in China	3,300	3.3t	3.6t	person_china	-1	-14	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+average world citizen	7,000	7t	7.7t	person_world	-1	-14	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+average UK citizen	15,000	15t	16t	person_uk	-1	-14	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+average North American	28,000	28t	30t	person_north_america	-1	-14	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+average Australian	30,000	30t	33t	person_australia	-1	-14	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+									
+									
+public swimming pool (yearly)	40,000	400t	88,100lbs	swimming_pool_yearly	-1			How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+public swimming pool <br> (per visitor)	17	17kg	37lbs	swimming_pool_visitor	-1			How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+space shuttle flight	4,600,000	4,600t	5,000t	space_shuttle	-1	17	energy	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+a large university (yearly)	72,000,000	72,000t	79,400t	university_total		20		How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+student per year	8,000	8t	17,600lbs	university_student		20		How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Mount Etna	1,000,000,000	1m t	1.1m t	volcanoes_etna	-1	25	events	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Mount Pinatuno, 1991 	42,000,000,000	42m t	46m t	volcanoes_pinatuno	-1	25	events	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+all volcanoes (yearly)	300,000,000,000	300m t	330m t	volcanoes_all	-1	25		How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+2010 World Cup	2,800,000,000	2.8m t	3m t	world_cup_2010	-1	-30	events	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+soccer match	820,000	820t	904t	soccer_match	8	-20		How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+data centres worldwide	130,000,000,000	130m t	143m t	data_centres		12	web	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+all flights world wide	670,000,000,000	670m t	330m t	flights_all			transport	The Independent	http://www.independent.co.uk/environment/climate-change/airline-emissions-far-higher-than-previous-estimates-821598.html
+2009 australian bushfires	165,000,000,000	165m t	182m t	australian_bushfires	-4	10	events	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Malawi	1,500,000,000	1.5m t	1.65m t	country_malawi	-7		global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Iceland	4,000,000,000	4m t	4.4m t	country_iceland	4	1	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Australia	610,000,000,000	610m t	672m t	country_australia		-6	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+France	810,000,000,000	810m t	893m t	country_france	5		global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+UK	862,000,000,000	862m t	950m t	country_uk	8	21	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Canada	890,000,000,000	890m t	981m t	country_canada	-12		global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Brazil	980,000,000,000	980m t	1.08bn t	country_brazil	7	-8	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Germany	1,350,000,000,000	1.4bn t	1.43bn t	country_germany	-4	-6	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+India	1,400,000,000,000	1.4bn t	1.54bn t	country_india	-10	-4	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+Russia	1,940,000,000,000	1.9bn t	2bn t	country_russia	-3	-2	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+China	4,300,000,000,000	4.3bn t	4.74bn t	country_china	-3	4	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+US	8,250,000,000,000	8.3bn t	9.1bn t	country_usa	-10	-4	global	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+									
+man-made CO2 emissions 2004	49,000,000,000,000	49bn t	54bn t	entire_world		25	global	Real Climate	http://www.realclimate.org/index.php/archives/2004/12/how-do-we-know-that-recent-cosub2sub-increases-are-due-to-human-activities-updated/
+world of warcraft (yearly)	2,725,831,680	2.7m t	2.98m t	world_of_warcraft		25	web	David's research	https://spreadsheets3.google.com/ccc?key=pYbJeoogpFN_3p_j362wvMg&hl=en_GB#gid=1
+facebook (yearly)	13,629,158,400	13.6m t	15m t	facebook	-15		web	David's research	https://spreadsheets3.google.com/ccc?key=pYbJeoogpFN_3p_j362wvMg&hl=en_GB#gid=1
+skype (yearly)	24,487,388,640	24m t	26m t	skype			web	David's research	https://spreadsheets3.google.com/ccc?key=pYbJeoogpFN_3p_j362wvMg&hl=en_GB#gid=1
+xbox live (yearly)	2,725,831,680	2.7m t	2.98m t	xbox_live		23	web	David's research	https://spreadsheets3.google.com/ccc?key=pYbJeoogpFN_3p_j362wvMg&hl=en_GB#gid=1
+club penguin (yearly)	136,291,584	136kt	150k t	club_penguin	-3		web	David's research	https://spreadsheets3.google.com/ccc?key=pYbJeoogpFN_3p_j362wvMg&hl=en_GB#gid=1
+gas patio heater per year	50	50kg	110lbs	patio_heater		-27	energy	Guardian	http://www.guardian.co.uk/environment/2009/jul/30/greenwash-patio-heaters
+New York to London (per person)	610	610kg	1,345lbs	flights_NY_London		2	transport	JP Morgan	http://www.jpmorganclimatecare.com/
+New York to LA (per person)	438	438kg	966lbs	flights_NY_LA		2	transport	JP Morgan	http://www.jpmorganclimatecare.com/
+New York to Miami (per person)	193	193kg	425lbs	flights_NY_Miami		2	transport	JP Morgan	http://www.jpmorganclimatecare.com/
+Sydney to Melbourne (per person)	83	83kg	183lbs	flights_Sydney_Melbourne		2	transport	JP Morgan	http://www.jpmorganclimatecare.com/
+London to Tokyo (per person)	1,056	1056kg	2,329lbs	flights_London_Tokyo		2	transport	How Bad Are Bananas?	http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914
+									
+all web searches worldwide (yearly)	22,600,000	22,600t	28,000t	web_search_global_yearly	-17	-17	web	ComScore	http://www.comscore.com/Press_Events/Press_Releases/2009/8/Global_Search_Market_Draws_More_than_100_Billion_Searches_per_Month
+web searches US	5,019,000	5,019t	5532t	web_search_usa	-17	-17	web	ComScore	http://www.comscore.com/Press_Events/Press_Releases/2009/8/Global_Search_Market_Draws_More_than_100_Billion_Searches_per_Month
+electricity USA yearly	2,400,000,000,000	2.4bn t	2.64bn t	electricity_usa			energy	Google	http://knol.google.com/k/clean-energy-2030#
+shipping worldwide	1,210,000,000,000	1,2bn t	1,100 Mt	shipping_worldwide				Guardian	http://www.guardian.co.uk/environment/2008/feb/13/climatechange.pollution1
+aviation worldwide	537,000,000,000	537m t	487 Mt	aviation_worldwide				Guardian	http://www.guardian.co.uk/environment/2008/feb/13/climatechange.pollution1
+electricity worldwide	6,432,000,000,000	6.4bn t	5835 Mt	electricity_worldwide				Guardian	http://www.guardian.co.uk/environment/2008/feb/13/climatechange.pollution1
