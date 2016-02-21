@@ -29,7 +29,7 @@ function default_to_open(){
     $('.description').animate({bottom: '+=450px'}, 750);
 
     // HIDE COVER
-    $('.image-cover').hide();
+    //$('.image-cover').hide();
 }
 
 function default_to_library(){

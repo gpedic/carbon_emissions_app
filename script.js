@@ -85,7 +85,7 @@ function processFile(dataURL, fileType) {
 
 
         //console.log(dataURL);
-        //sendFile(dataURL);
+        sendFile(dataURL);
 
 
         // AUTO SHARE
@@ -149,4 +149,8 @@ function shareFile(fileData) {
             //alert('There was an error uploading your file!');
         }
     });
+}
+
+function twitter_stream(){
+    $('#twitter-stream').html();
 }
