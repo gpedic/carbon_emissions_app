@@ -99,6 +99,7 @@
         <div class="lib-item">
             <img class="lazy" data-src="img/library/tea.jpg" />
                 <div class="text-data">
+                    <p><ul><li>coffee</li><li>cup</li><li>hot</li><li>drink</li><li>breakfast</li><li>tea</li><li>dawn</li><li>espresso</li><li>saucer</li><li>caffeine</li></ul></p>
                     <p>A cup of tea requires 71g CO2e to manufacture according to <a href="http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914" target="_blank">"How Bad Are Bananas? Calculated."</a></p>
                     <p>A large latte requires 340g CO2e to manufacture according to <a href="http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914" target="_blank">"How Bad Are Bananas? Calculated."</a></p>
                 </div>
@@ -111,6 +112,7 @@
         <div class="lib-item">
             <img class="lazy" data-src="img/library/wedding.jpg" />
                 <div class="text-data">
+                    <p><ul><li>wedding</li><li>groom</li><li>bride</li><li>ceremony</li><li>woman</li><li>people</li><li>man</li><li>outdoors</li><li>love</li><li>military</li></p>
                     <p>Large Wedding with 300 guests can produce up to 84,500 CO2e (kg) according to <a href="http://www.jpmorganclimatecare.com/">ClimateCare.com</a></p>
                 </div>
                 <div class="calculation">
@@ -122,6 +124,7 @@
         <div class="lib-item">
             <img class="lazy" data-src="img/library/tv.jpg" />
                 <div class="text-data">
+                    <p><ul><li>screen</li><li>monitor</li><li>window</li><li>picture frame</li><li>television</li><li>wood</li><li>no person</li><li>indoors</li><li>family</li><li>computer</li></p>
                     <p>Watching 28" TV per day requires 380g CO2e according to
                         <a href="http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914" target="_blank">"How Bad Are Bananas? Calculated."</a>
                     </p>
