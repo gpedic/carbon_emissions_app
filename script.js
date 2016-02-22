@@ -135,13 +135,17 @@ function sendFile(fileData) {
 
             message_ul += '</ul>';
 
-            $('#text_message').append(message_ul + message_html + '<p>Auto Tweeted to <a href="https://twitter.com/CO2Inspector" target="_blank">@CO2Inspector </a></p>');
+            $('#text_message').append(message_ul + message_html + '<p style="color:#000">Auto Tweeted to <a href="https://twitter.com/CO2Inspector" target="_blank">@CO2Inspector </a></p>');
 
             $('#co2_kg').html(total_co2);
 
             // TOGGLE PANELS
             default_to_open();
 
+
+            if(data.length == 0){
+                $('#text_message').append('Cannot detect image. Please try again.');
+            }
 
             // AUTO SHARE
             shareFile(fileData, item_logged+' produces about ' + item_co2 + ' Co2 (g)');
