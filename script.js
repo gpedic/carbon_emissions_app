@@ -4,35 +4,15 @@ $( document ).ready(function() {
         var $inputField = $('#file-5');
 
         $inputField.on('change', function(e) {
+            var file = e.target.files[0];
 
-            var loadingImage = loadImage(
-                e.target.files[0],
-                function (img) {
-                   var rotation6 = img.toDataURL();
-
-                   var loadingImage2 = loadImage(
-                        e.target.files[0],
-                        function (img) {
-                           var rotation1 = img.toDataURL();
-                           readFile(rotation1, rotation6);
-                        },
-                        {orientation: 1}
-                    );
-                },
-                {orientation: 6}
-            );
-
-
-            
-            // var file = e.target.files[0];
-
-            // if (file) {
-            //     if (/^image\//i.test(file.type)) {
-            //         readFile(file);
-            //     } else {
-            //         alert('Not a valid image!');
-            //     }
-            // }
+            if (file) {
+                if (/^image\//i.test(file.type)) {
+                    readFile(file);
+                } else {
+                    alert('Not a valid image!');
+                }
+            }
         });
     } else {
         alert("File upload is not supported!");
@@ -47,23 +27,21 @@ $( document ).ready(function() {
     twitter_stream(15, '#co2 #hackathon');
 });
 
-function readFile(file1, file2) {
+function readFile(file) {
+    var reader = new FileReader();
 
-    processFile(file1, file2);
-    // var reader = new FileReader();
+    reader.onloadend = function() {
+        processFile(reader.result, file.type);
+    }
 
-    // reader.onloadend = function() {
-    //     processFile(reader.result, file.type);
-    // }
+    reader.onerror = function() {
+        alert('There was an error reading the file!');
+    }
 
-    // reader.onerror = function() {
-    //     alert('There was an error reading the file!');
-    // }
-
-    // reader.readAsDataURL(file);
+    reader.readAsDataURL(file);
 }
 
-function processFile(dataURL, dataURL2) {
+function processFile(dataURL, fileType) {
 
     // HIDE BG COVER
     $('.image-cover').addClass('bg');
@@ -73,7 +51,7 @@ function processFile(dataURL, dataURL2) {
     var maxHeight = 800;
 
     var image = new Image();
-    image.src = dataURL2;
+    image.src = dataURL;
 
     image.onload = function() {
         var width = image.width;
@@ -105,10 +83,10 @@ function processFile(dataURL, dataURL2) {
 
         context.drawImage(this, 0, 0, newWidth, newHeight);
 
-        //dataURL = canvas.toDataURL(fileType);
+        dataURL = canvas.toDataURL(fileType);
 
         //console.log(dataURL);
-        sendFile(dataURL, dataURL2);
+        sendFile(dataURL);
 
 
         
@@ -119,7 +97,7 @@ function processFile(dataURL, dataURL2) {
     };
 }
 
-function sendFile(fileData, fileData2) {
+function sendFile(fileData) {
     var formData = new FormData();
 
     formData.append('imageData', fileData);
