@@ -9,18 +9,21 @@ $( document ).ready(function() {
                 e.target.files[0],
                 function (img) {
                    var rotation6 = img.toDataURL();
+
+                   var loadingImage2 = loadImage(
+                        e.target.files[0],
+                        function (img) {
+                           var rotation1 = img.toDataURL();
+                           readFile(rotation1, rotation6);
+                        },
+                        {orientation: 1}
+                    );
                 },
                 {orientation: 6}
             );
-            var loadingImage2 = loadImage(
-                e.target.files[0],
-                function (img) {
-                   var rotation1 = img.toDataURL();
-                },
-                {orientation: 1}
-            );
 
-            readFile(rotation1, rotation6);
+
+            
             // var file = e.target.files[0];
 
             // if (file) {
