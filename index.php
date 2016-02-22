@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CO2 Stats">
-<meta name="twitter:description" content="Users can take pictures via mobile, we identify what is inside the picture and through our database, we can find the carbon footprint produced or used to manufactured each item.">
-<meta name="twitter:image" content="http://169.54.145.209/img/2790901f9fa8b06529b38aeaa6a4a336">
 <head>
     <title>#CO2 App Inspector</title>
 
@@ -45,11 +41,9 @@
 
             <ul class="nav navbar-nav mobile-bar" style="width: inherit;">
                 <li>
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://http://169.54.145.209/" data-via="matikcloud" data-hashtags="co2">Tweet</a>
-                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    <!-- <a href="#" onclick="shareFile();">
+                    <a href="#" onclick="shareFile();">
                         <span class="menu-icon fa fa-twitter"></span> Share
-                    </a> -->
+                    </a>
                 </li>
                 <li>
                     <div class="box">
