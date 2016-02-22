@@ -144,7 +144,7 @@ function sendFile(fileData) {
 
 
             if(data.length == 0){
-                $('#text_message').append('Cannot detect image. Please try again.');
+                $('#text_message').html('Cannot detect image. Please try again.');
             }
 
             // AUTO SHARE
