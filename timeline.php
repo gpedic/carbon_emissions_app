@@ -3,7 +3,7 @@ require "vendor/autoload.php";
 $config = require("config.php");
 use Abraham\TwitterOAuth\TwitterOAuth;
 
-$twitteruser = "garyyauchan";
+$twitteruser = "CO2Inspector";
 $notweets = $_POST['num_of_tweet'];
 
 $connection = new TwitterOAuth(
@@ -15,8 +15,8 @@ $connection = new TwitterOAuth(
 
 $query = $_POST['hashtag'];
 
-// $tweets = $connection->get("statuses/user_timeline", array('count' => $notweets, 'exclude_replies' => true, 'screen_name' => $twitteruser));
-$tweets = $connection->get("search/tweets", array('count' => $notweets, 'exclude_replies' => true, 'q' => $query));
+$tweets = $connection->get("statuses/user_timeline", array('count' => $notweets, 'exclude_replies' => true, 'screen_name' => $twitteruser));
+//$tweets = $connection->get("search/tweets", array('count' => $notweets, 'exclude_replies' => true, 'q' => $query));
 
 
 echo json_encode($tweets);

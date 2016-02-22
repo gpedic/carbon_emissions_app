@@ -21,6 +21,7 @@
      <!-- cdnjs -->
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.6.5/jquery.lazy.min.js"></script>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/load-image/1.11.1/js/load-image.min.js"></script>
     <script src="md5.min.js"></script>
     <script src="script.js"></script>
     <script src="transitions.js"></script>
@@ -35,6 +36,7 @@
 
     <div class="image-cover">
         <canvas id="canvasID"></canvas>
+        <img src="" style="width:100%;height:400px;" id="abc">
     </div>
 
     <div class="navbar-more-overlay"></div>
@@ -46,7 +48,7 @@
 
             <ul class="nav navbar-nav mobile-bar" style="width: inherit;">
                 <li>
-                        <a href="https://twitter.com/home?status=%23hackathon%20%40koding%20%40co2inspector%20Find%20%23co2%20carbon%20emission%20around%20you%20with%20http%3A//theproducthackers.com/co2%20" target="_blank">
+                        <a href="https://twitter.com/home?status=%23hackathon%20%40koding%20%40co2inspector%20Find%20%23co2%20carbon%20emission%20around%20you%20with%20http%3A//169.54.145.209/%20" target="_blank">
                         <span class="menu-icon fa fa-twitter"></span> Share
                     </a>
                 </li>
@@ -80,7 +82,7 @@
                <span id="co2_kg">20</span>
            </div>
            <div class="info">
-               <h4 class="text-center">CO2 Kg</h4>
+               <h4 class="text-center">CO2 (g)</h4>
                <p id="text_message"><img src="img/environment.svg"><img src="img/greenleaf.svg"><img src="img/ladybug.svg"></p>
            </div>
        </div>

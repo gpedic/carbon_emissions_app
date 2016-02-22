@@ -77,8 +77,8 @@ function twitter_stream(num_of_tweet, hashtag){
                 
                 var data = $.parseJSON(data);
                 var tweets_html = '';
-                data = data['statuses'];
-
+                //data = data['statuses'];
+                
                 for (var i = data.length - 1; i >= 0; i--) {
                     var message = data[i]['text'];
                     var from = data[i]['user']['screen_name'];
