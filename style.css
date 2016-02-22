@@ -333,3 +333,8 @@ img.lazy {
     color: #8C8C8C;
     font-size: 0.5em;
 }
+
+#text-message {
+  height: 300px;
+  overflow-y: scroll;
+}
