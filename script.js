@@ -10,7 +10,7 @@ $( document ).ready(function() {
                 function (img) {
                    readFile(img.toDataURL());
                 },
-                {orientation: 1}
+                {orientation: 6}
             );
             // var file = e.target.files[0];
 

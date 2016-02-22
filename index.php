@@ -36,7 +36,7 @@
 
     <div class="image-cover">
         <canvas id="canvasID"></canvas>
-        <img src="" style="width:100%;height:400px;" id="abc">
+        <!-- <img src="" style="width:100%;height:400px;" id="abc"> -->
     </div>
 
     <div class="navbar-more-overlay"></div>
