@@ -334,7 +334,7 @@ img.lazy {
     font-size: 0.5em;
 }
 
-#text-message {
+#text_message {
   height: 300px;
   overflow-y: scroll;
 }
