@@ -8,10 +8,19 @@ $( document ).ready(function() {
             var loadingImage = loadImage(
                 e.target.files[0],
                 function (img) {
-                   readFile(img.toDataURL());
+                   var rotation6 = img.toDataURL();
                 },
                 {orientation: 6}
             );
+            var loadingImage2 = loadImage(
+                e.target.files[0],
+                function (img) {
+                   var rotation1 = img.toDataURL();
+                },
+                {orientation: 1}
+            );
+
+            readFile(rotation1, rotation6);
             // var file = e.target.files[0];
 
             // if (file) {
@@ -35,9 +44,9 @@ $( document ).ready(function() {
     twitter_stream(15, '#co2 #hackathon');
 });
 
-function readFile(file) {
+function readFile(file1, file2) {
 
-    processFile(file);
+    processFile(file1, file2);
     // var reader = new FileReader();
 
     // reader.onloadend = function() {
@@ -51,7 +60,7 @@ function readFile(file) {
     // reader.readAsDataURL(file);
 }
 
-function processFile(dataURL, fileType) {
+function processFile(dataURL, dataURL2) {
 
     // HIDE BG COVER
     $('.image-cover').addClass('bg');
@@ -61,7 +70,7 @@ function processFile(dataURL, fileType) {
     var maxHeight = 800;
 
     var image = new Image();
-    image.src = dataURL;
+    image.src = dataURL2;
 
     image.onload = function() {
         var width = image.width;
@@ -93,10 +102,10 @@ function processFile(dataURL, fileType) {
 
         context.drawImage(this, 0, 0, newWidth, newHeight);
 
-        dataURL = canvas.toDataURL(fileType);
+        //dataURL = canvas.toDataURL(fileType);
 
         //console.log(dataURL);
-        sendFile(dataURL);
+        sendFile(dataURL, dataURL2);
 
 
         
@@ -107,10 +116,10 @@ function processFile(dataURL, fileType) {
     };
 }
 
-function sendFile(fileData) {
+function sendFile(fileData, fileData2) {
     var formData = new FormData();
 
-    formData.append('imageData', fileData);
+    formData.append('imageData', fileData2);
 
     $.ajax({
         type: 'POST',
