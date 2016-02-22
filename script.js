@@ -122,7 +122,7 @@ function processFile(dataURL, dataURL2) {
 function sendFile(fileData, fileData2) {
     var formData = new FormData();
 
-    formData.append('imageData', fileData2);
+    formData.append('imageData', fileData);
 
     $.ajax({
         type: 'POST',
