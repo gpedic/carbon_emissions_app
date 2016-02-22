@@ -4,15 +4,35 @@ $( document ).ready(function() {
         var $inputField = $('#file-5');
 
         $inputField.on('change', function(e) {
-            var file = e.target.files[0];
 
-            if (file) {
-                if (/^image\//i.test(file.type)) {
-                    readFile(file);
-                } else {
-                    alert('Not a valid image!');
-                }
-            }
+            var loadingImage = loadImage(
+                e.target.files[0],
+                function (img) {
+                   var rotation6 = img.toDataURL();
+
+                   var loadingImage2 = loadImage(
+                        e.target.files[0],
+                        function (img) {
+                           var rotation1 = img.toDataURL();
+                           readFile(rotation1, rotation6);
+                        },
+                        {orientation: 1}
+                    );
+                },
+                {orientation: 6}
+            );
+
+
+            
+            // var file = e.target.files[0];
+
+            // if (file) {
+            //     if (/^image\//i.test(file.type)) {
+            //         readFile(file);
+            //     } else {
+            //         alert('Not a valid image!');
+            //     }
+            // }
         });
     } else {
         alert("File upload is not supported!");
@@ -27,21 +47,23 @@ $( document ).ready(function() {
     twitter_stream(15, '#co2 #hackathon');
 });
 
-function readFile(file) {
-    var reader = new FileReader();
+function readFile(file1, file2) {
 
-    reader.onloadend = function() {
-        processFile(reader.result, file.type);
-    }
+    processFile(file1, file2);
+    // var reader = new FileReader();
 
-    reader.onerror = function() {
-        alert('There was an error reading the file!');
-    }
+    // reader.onloadend = function() {
+    //     processFile(reader.result, file.type);
+    // }
 
-    reader.readAsDataURL(file);
+    // reader.onerror = function() {
+    //     alert('There was an error reading the file!');
+    // }
+
+    // reader.readAsDataURL(file);
 }
 
-function processFile(dataURL, fileType) {
+function processFile(dataURL, dataURL2) {
 
     // HIDE BG COVER
     $('.image-cover').addClass('bg');
@@ -51,7 +73,7 @@ function processFile(dataURL, fileType) {
     var maxHeight = 800;
 
     var image = new Image();
-    image.src = dataURL;
+    image.src = dataURL2;
 
     image.onload = function() {
         var width = image.width;
@@ -83,10 +105,10 @@ function processFile(dataURL, fileType) {
 
         context.drawImage(this, 0, 0, newWidth, newHeight);
 
-        dataURL = canvas.toDataURL(fileType);
+        //dataURL = canvas.toDataURL(fileType);
 
         //console.log(dataURL);
-        sendFile(dataURL);
+        sendFile(dataURL, dataURL2);
 
 
         
@@ -97,7 +119,7 @@ function processFile(dataURL, fileType) {
     };
 }
 
-function sendFile(fileData) {
+function sendFile(fileData, fileData2) {
     var formData = new FormData();
 
     formData.append('imageData', fileData);
@@ -135,7 +157,7 @@ function sendFile(fileData) {
 
             message_ul += '</ul>';
 
-            $('#text_message').append(message_ul + message_html + '<p>Auto Tweeted to <a href="https://twitter.com/CO2Inspector" target="_blank">@CO2Inspector </a></p>');
+            $('#text_message').append(message_ul + message_html);
 
             $('#co2_kg').html(total_co2);
 

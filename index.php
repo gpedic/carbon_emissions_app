@@ -94,6 +94,7 @@
              <div class="text-data">
                 <p>For more info, access, and update to our database, please visit: <a href="https://docs.google.com/spreadsheets/d/1UjpkJjhl7f7H7z2R_MYWNAT-6qlEDi7ahVGibEdqyaY/edit?usp=sharing" target="_blank">CO2 Database Google Sheet</a> for more details.
                 </p>
+                <p>Follow <a href="https://twitter.com/CO2Inspector" target="_blank">@CO2Inspector</a></p>
             </div>
         </div>
 
