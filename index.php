@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CO2 Stats">
+<meta name="twitter:description" content="Users can take pictures via mobile, we identify what is inside the picture and through our database, we can find the carbon footprint produced or used to manufactured each item.">
+<meta name="twitter:image" content="http://theproducthackers.com/co2/img/co2-bg.png">
+
 <head>
     <title>#CO2 App Inspector</title>
 
@@ -41,7 +46,7 @@
 
             <ul class="nav navbar-nav mobile-bar" style="width: inherit;">
                 <li>
-                    <a href="#" onclick="shareFile();">
+                        <a href="https://twitter.com/home?status=%23hackathon%20%40koding%20%40co2inspector%20Find%20%23co2%20carbon%20emission%20around%20you%20with%20http%3A//theproducthackers.com/co2%20" target="_blank">
                         <span class="menu-icon fa fa-twitter"></span> Share
                     </a>
                 </li>
@@ -72,11 +77,11 @@
      <div class="description navbar-bottom" style="bottom:-450px;">
        <div class="box box-panel">
            <div class="box-icon">
-               <span>20</span>
+               <span id="co2_kg">20</span>
            </div>
            <div class="info">
-               <h4 class="text-center">Kg</h4>
-               <p><img src="img/environment.svg"><img src="img/greenleaf.svg"><img src="img/ladybug.svg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+               <h4 class="text-center">CO2 Kg</h4>
+               <p id="text_message"><img src="img/environment.svg"><img src="img/greenleaf.svg"><img src="img/ladybug.svg"></p>
            </div>
        </div>
     </div>
@@ -98,7 +103,7 @@
                     <p>A large latte requires 340g CO2e to manufacture according to <a href="http://www.amazon.com/How-Bad-are-Bananas-Everything/dp/1846688914" target="_blank">"How Bad Are Bananas? Calculated."</a></p>
                 </div>
                 <div class="calculation">
-                    <div class="data-num">52<span>CO2e (g)</span></div>
+                    <div class="data-num">71<span>CO2e (g)</span></div>
                     <div class="data-num">340<span>CO2e (g)</span></div>
                     <div class="clear"></div>
                 </div>

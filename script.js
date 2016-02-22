@@ -85,13 +85,11 @@ function processFile(dataURL, fileType) {
 
         dataURL = canvas.toDataURL(fileType);
 
-
         //console.log(dataURL);
         sendFile(dataURL);
 
 
-        // AUTO SHARE
-        shareFile(dataURL);
+        
     };
 
     image.onerror = function() {
@@ -111,11 +109,42 @@ function sendFile(fileData) {
         contentType: false,
         processData: false,
         success: function(data) {
-            alert('Your file was successfully uploaded!');
+            //alert('Your file was successfully uploaded!');
 
-            console.log(success);
+            console.log(data);
+
+            var data = $.parseJSON(data);
+            var message_html = '<br>';
+            var message_ul = '<br><ul>';
+            var total_co2 = 0;
+
+            for (var i in data) { 
+
+                //var item_detected = data[i];
+                console.log(data[i]);
+                var item_logged = data[i][0][0];
+                var item_co2 = data[i][0][1];
+                var item_source = data[i][0][8];
+                var item_source_url = data[i][0][9];
+
+                message_ul += '<li>'+i+'</li>';
+                message_html += item_logged+' produces about ' + item_co2 + ' Co2 (kg) according to <a href="'+item_source_url+'">'+ item_source +'</a>.<br><br>';
+
+                total_co2 = parseFloat(total_co2) + parseFloat(item_co2);
+            }
+
+            message_ul += '</ul>';
+
+            $('#text_message').append(message_ul + message_html);
+
+            $('#co2_kg').html(total_co2);
+
             // TOGGLE PANELS
             default_to_open();
+
+
+            // AUTO SHARE
+            shareFile(fileData, item_logged+' produces about ' + item_co2 + ' Co2 (kg)');
         },
         error: function(data) {
             alert('There was an error uploading your file!');
@@ -123,11 +152,11 @@ function sendFile(fileData) {
     });
 }
 
-function shareFile(fileData) {
+function shareFile(fileData, message_html) {
     var formData = new FormData();
 
     formData.append('imageData', fileData);
-    formData.append('message', '#co2 #hackathon');
+    formData.append('message', '#co2 #hackathon ' + message_html);
 
     $.ajax({
         type: 'POST',
@@ -138,6 +167,10 @@ function shareFile(fileData) {
         success: function(data) {
             //console.log('shared');
             console.log(data);
+
+            // for (var i = data.length - 1; i >= 0; i--) {
+            //     data[i]
+            // };
 
             // RELOAD BACK TO LIBRARY
             twitter_stream(1, '#co2 #hackathon');

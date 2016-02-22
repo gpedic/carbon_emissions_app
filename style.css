@@ -305,10 +305,10 @@ img.lazy {
   display: block;
   /*padding: 50px 0px 0px;*/
 }
-#library ul{
+#library ul, #text_message ul{
   padding:0px;
 }
-#library ul li{
+#library ul li, #text_message ul li{
   display: inline-block;
   margin: 2px;
   padding: 2px 5px;
