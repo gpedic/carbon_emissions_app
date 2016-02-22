@@ -111,18 +111,11 @@ function sendFile(fileData) {
         contentType: false,
         processData: false,
         success: function(data) {
-            if (data.success) {
-                alert('Your file was successfully uploaded!');
+            alert('Your file was successfully uploaded!');
 
-                console.log(success);
-
-
-                
-                // TOGGLE PANELS
-                default_to_open();   
-            } else {
-                alert('There was an error uploading your file!');
-            }
+            console.log(success);
+            // TOGGLE PANELS
+            default_to_open();
         },
         error: function(data) {
             alert('There was an error uploading your file!');
