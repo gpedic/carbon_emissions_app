@@ -2,8 +2,8 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@matikcloud">
 <meta name="twitter:title" content="CO2 Stats">
+<meta name="twitter:description" content="Users can take pictures via mobile, we identify what is inside the picture and through our database, we can find the carbon footprint produced or used to manufactured each item.">
 <meta name="twitter:image" content="http://169.54.145.209/img/2790901f9fa8b06529b38aeaa6a4a336">
 <head>
     <title>#CO2 App Inspector</title>
