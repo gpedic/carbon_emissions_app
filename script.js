@@ -123,12 +123,12 @@ function sendFile(fileData) {
                 //var item_detected = data[i];
                 console.log(data[i]);
                 var item_logged = data[i][0][0];
-                var item_co2 = data[i][0][1];
+                var item_co2 = data[i][0][2];
                 var item_source = data[i][0][8];
                 var item_source_url = data[i][0][9];
 
                 message_ul += '<li>'+i+'</li>';
-                message_html += item_logged+' produces about ' + item_co2 + ' Co2 (kg) according to <a href="'+item_source_url+'">'+ item_source +'</a>.<br><br>';
+                message_html += item_logged+' produces about ' + item_co2 + ' Co2 (g) according to <a href="'+item_source_url+'">'+ item_source +'</a>.<br><br>';
 
                 total_co2 = parseFloat(total_co2) + parseFloat(item_co2);
             }
@@ -144,7 +144,7 @@ function sendFile(fileData) {
 
 
             // AUTO SHARE
-            shareFile(fileData, item_logged+' produces about ' + item_co2 + ' Co2 (kg)');
+            shareFile(fileData, item_logged+' produces about ' + item_co2 + ' Co2 (g)');
         },
         error: function(data) {
             alert('There was an error uploading your file!');
